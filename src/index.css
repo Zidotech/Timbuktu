@@ -1,0 +1,36 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background-color: #f5f8fa;
+  font-family: Manrope;
+}
+
+.hero__bg {
+  position: relative;
+  height: 100vh; /* Make the container take the full viewport height */
+  background-image: url("./assets/hero_bg.png");
+  background-size: cover;
+  background-position: center;
+}
+
+.section {
+  width: 94%;
+  margin: 0 auto;
+  /* border: 2px solid green; */
+}
+
+.green {
+  color: rgba(21, 240, 56, 1);
+}
+
+@media screen and (max-width: 600px) {
+  .hero__bg {
+    height: 85vh;
+    background-size: cover;
+    background-position: center;
+  }
+}
