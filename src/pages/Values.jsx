@@ -145,13 +145,13 @@ const Values = () => {
           <h3 className="text-[48px] font-bold text-center">Our Partners</h3>
 
           <div className="flex flex-wrap justify-between md:w-[80%] w-[100%] mx-auto pt-8">
-            <p>Blockchain Africa</p>
-            <p>ETHCameroon</p>
-            <p>ETHCameroon</p>
+            <p className="text-[32px] font-medium">Blockchain Africa</p>
+            <p className="text-[32px] font-medium">ETHCameroon</p>
+            <p className="text-[32px] font-medium">ETHCameroon</p>
           </div>
 
           <div className="flex justify-between md:w-[80%] w-full mx-auto py-10">
-            <h4 className="md:text-[30px] text-[23px] font-medium text-center">
+            <h4 className="md:text-[20px] text-[23px] font-medium text-center">
               Join us on our journey to empower Africa with the knowledge,
               skills, and tools needed for a decentralized and sustainable
               future.
