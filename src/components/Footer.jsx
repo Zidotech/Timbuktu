@@ -1,5 +1,6 @@
 import React from "react";
 import { image } from "../constants";
+import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
@@ -15,23 +16,29 @@ const Footer = () => {
               <h3 className="text-[20px] font-bold">Quick Link</h3>
               <ul className="pt-4">
                 <li className="mb-3">
-                  <a className="font-bold text-[16px] text-White">Home </a>
+                  <Link className="font-bold text-[16px] text-White">
+                    Home{" "}
+                  </Link>
                 </li>
                 <li className="mb-3">
-                  <a className="font-bold text-[16px] text-White">Blog </a>
+                  <Link className="font-bold text-[16px] text-White">
+                    Blog{" "}
+                  </Link>
                 </li>
                 <li className="mb-3">
-                  <a className="font-bold text-[16px] text-White">About Us </a>
+                  <Link className="font-bold text-[16px] text-White">
+                    About Us{" "}
+                  </Link>
                 </li>
                 <li className="mb-3">
-                  <a className="font-bold text-[16px] text-White">
+                  <Link className="font-bold text-[16px] text-White">
                     Whitepaper{" "}
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a className="font-bold text-[16px] text-White">
+                  <Link className="font-bold text-[16px] text-White">
                     Timbuktu City{" "}
-                  </a>
+                  </Link>
                 </li>
               </ul>
             </div>
@@ -39,9 +46,35 @@ const Footer = () => {
             <div>
               <h3 className="text-[20px] font-bold">Socials</h3>
               <div className="flex gap-7 pt-4">
-                <img src={image.discord} alt="" className="w-[24px]" />
-                <img src={image.telegram} alt="" className="w-[24px]" />
-                <img src={image.twitter} alt="" className="w-[24px]" />
+                <Link>
+                  <img src={image.discord} alt="" className="w-[34px]" />
+                </Link>
+                <Link target="_blank" to={"https://t.me/timbuktuD"}>
+                  <img src={image.telegram} alt="" className="w-[34px]" />
+                </Link>
+                <Link target="_blank" to={"https://x.com/timbuktudao/"}>
+                  <img src={image.twitter} alt="" className="w-[34px]" />
+                </Link>
+                <Link
+                  target="_blank"
+                  to={
+                    "https://www.linkedin.com/company/timbkutudao/?viewAsMember=true"
+                  }
+                >
+                  <img src={image.linkdIn} alt="" className="w-[34px]" />
+                </Link>
+                <Link
+                  target="_blank"
+                  to={"https://www.facebook.com/profile.php?id=61551929610914"}
+                >
+                  <img src={image.facebook} alt="" className="w-[34px]" />
+                </Link>
+                <Link
+                  target="_blank"
+                  to={"https://www.instagram.com/timbuktudao/"}
+                >
+                  <img src={image.instagram} alt="" className="w-[34px]" />
+                </Link>
               </div>
             </div>
           </div>

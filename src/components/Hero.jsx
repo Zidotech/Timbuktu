@@ -1,6 +1,7 @@
 import React from "react";
 import { image } from "../constants";
 import { BiLogoDiscordAlt } from "react-icons/bi";
+import { Link } from "react-router-dom";
 
 const Hero = () => {
   return (
@@ -19,10 +20,14 @@ const Hero = () => {
                 fostering decentralized tools for sustainable development.
               </p>
 
-              <div className=" bg-White text-black py-[18px] px-[70px] rounded-2xl font-bold flex gap-x-4 items-center">
-                <BiLogoDiscordAlt className="text-[25px] " />
-                <a>Join Discord</a>
-              </div>
+              <Link
+                target="_blank"
+                to={"https://t.me/timbuktuD"}
+                className=" bg-White text-black py-[18px] px-[40px] rounded-2xl font-bold flex gap-x-4 items-center"
+              >
+                <img src={image.telegram} alt="" className="w-[34px]" />
+                <a>Join Telegram</a>
+              </Link>
             </div>
           </div>
 

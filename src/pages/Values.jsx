@@ -141,7 +141,7 @@ const Values = () => {
         </div>
 
         {/* our partners */}
-        <div className="mt-10">
+        {/* <div className="mt-10">
           <h3 className="text-[48px] font-bold text-center">Our Partners</h3>
 
           <div className="flex flex-wrap justify-between md:w-[80%] w-[100%] mx-auto pt-8">
@@ -157,7 +157,7 @@ const Values = () => {
               future.
             </h4>
           </div>
-        </div>
+        </div> */}
       </div>
     </section>
   );

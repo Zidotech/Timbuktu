@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 import { HiMenuAlt3 } from "react-icons/hi";
 import { AiOutlineClose } from "react-icons/ai";
 import { links } from "../constants";
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
   const [toggle, setToggle] = useState(false);
@@ -37,30 +38,33 @@ const Navbar = () => {
 
           {/* links */}
           <div>
-            <ul className=" md:flex hidden">
+            <div className=" md:flex hidden">
               {/* {links.map((nav) => {
                 <li key={nav.id}>
                   <a href={nav.url}>{nav.text}</a>
                 </li>;
               })} */}
-              <li className="mr-8">
-                <a className="font-bold text-[20px] text-White">Home </a>
-              </li>
-              <li className="mr-8">
-                <a className="font-bold text-[20px] text-White">Blog </a>
-              </li>
-              <li className="mr-8">
-                <a className="font-bold text-[20px] text-White">About Us </a>
-              </li>
-              <li className="mr-8">
-                <a className="font-bold text-[20px] text-White">Whitepaper </a>
-              </li>
-              <li>
-                <a className="font-bold text-[20px] text-White">
-                  Timbuktu City{" "}
-                </a>
-              </li>
-            </ul>
+
+              <Link className="font-bold text-[20px] text-White mr-8">
+                Home{" "}
+              </Link>
+
+              <Link className="font-bold text-[20px] text-White mr-8">
+                Blog{" "}
+              </Link>
+
+              <Link className="font-bold text-[20px] text-White mr-8">
+                About Us{" "}
+              </Link>
+
+              <Link className="font-bold text-[20px] text-White mr-8">
+                Whitepaper{" "}
+              </Link>
+
+              <Link className="font-bold text-[20px] text-White">
+                Timbuktu City{" "}
+              </Link>
+            </div>
           </div>
 
           {/* contact btn */}
@@ -94,25 +98,29 @@ const Navbar = () => {
               >
                 <ul className=" py-3 px-4">
                   <li className="mb-3">
-                    <a className="font-bold text-[20px] text-black">Home </a>
+                    <Link className="font-bold text-[20px] text-black">
+                      Home{" "}
+                    </Link>
                   </li>
                   <li className="mb-3">
-                    <a className="font-bold text-[20px] text-black">Blog </a>
+                    <Link className="font-bold text-[20px] text-black">
+                      Blog{" "}
+                    </Link>
                   </li>
                   <li className="mb-3">
-                    <a className="font-bold text-[20px] text-black">
+                    <Link className="font-bold text-[20px] text-black">
                       About Us{" "}
-                    </a>
+                    </Link>
                   </li>
                   <li className="mb-3">
-                    <a className="font-bold text-[20px] text-black">
+                    <Link className="font-bold text-[20px] text-black">
                       Whitepaper{" "}
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a className="font-bold text-[20px] text-black">
+                    <Link className="font-bold text-[20px] text-black">
                       Timbuktu City{" "}
-                    </a>
+                    </Link>
                   </li>
                 </ul>
 
