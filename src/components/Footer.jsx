@@ -1,4 +1,3 @@
-import React from "react";
 import { image } from "../constants";
 import { Link } from "react-router-dom";
 
@@ -8,7 +7,7 @@ const Footer = () => {
       <div className="py-10 section">
         <div className="w-full flex justify-between md:flex-row flex-col md:gap-y-0 gap-y-7 ">
           <div className="">
-            <h2 className="text-White font-bold text-[20px]">Timbuktu DAO</h2>
+            <img src={image.logo} alt="company_logo" />
           </div>
 
           <div className="flex md:flex-row flex-col gap-10">
@@ -21,7 +20,11 @@ const Footer = () => {
                   </Link>
                 </li>
                 <li className="mb-3">
-                  <Link className="font-bold text-[16px] text-White">
+                  <Link
+                    target="_blank"
+                    to={"https://medium.com/@info_42723"}
+                    className="font-bold text-[16px] text-White"
+                  >
                     Blog{" "}
                   </Link>
                 </li>
@@ -31,7 +34,11 @@ const Footer = () => {
                   </Link>
                 </li>
                 <li className="mb-3">
-                  <Link className="font-bold text-[16px] text-White">
+                  <Link
+                    target="_blank"
+                    to={"https://timbuktu-dao.gitbook.io/timbuktu-dao"}
+                    className="font-bold text-[16px] text-White"
+                  >
                     Whitepaper{" "}
                   </Link>
                 </li>

@@ -7,6 +7,7 @@ import twitter from "../assets/twitter-1-svgrepo-com.svg";
 import linkdIn from "../assets/linkedin-1-svgrepo-com.svg";
 import facebook from "../assets/facebook-1-svgrepo-com.svg";
 import instagram from "../assets/instagram-1-svgrepo-com.svg";
+import logo from "../assets/Logo.svg";
 
 export default {
   hero_img,
@@ -18,4 +19,5 @@ export default {
   linkdIn,
   facebook,
   instagram,
+  logo,
 };

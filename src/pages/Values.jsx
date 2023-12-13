@@ -1,4 +1,3 @@
-import React from "react";
 import { image } from "../constants";
 
 const Values = () => {
@@ -6,7 +5,9 @@ const Values = () => {
     <section className="w-full bg-black text-white">
       <div className="section">
         <div className="pt-10">
-          <h3 className="text-[48px] font-bold text-center">Our values</h3>
+          <h3 className="sm:text-[48px] text-[35px] font-bold text-center text-Primary">
+            Our values
+          </h3>
 
           <div className="py-5">
             <div className="md:w-[40%] mx-auto text-center w-[80%]">
@@ -73,9 +74,9 @@ const Values = () => {
         {/* mission and goals section */}
         <div className="flex justify-between md:flex-row flex-col md:gap-y-0 gap-y-6">
           {/* left box */}
-          <div className=" bg-card md:w-[43%] w-[100%] h-min pt-3 pb-7 md:px-7 px-4">
-            <div className=" border-l-2 border-White md:px-7 px-3  flex flex-col gap-y-4">
-              <h3 className="text-[48px] font-bold leading-[65px]">
+          <div className=" md:w-[43%] w-[100%] h-min pt-3 pb-7 md:px-7 px-4">
+            <div className=" border-l-2 border-Primary md:px-7 px-3  flex flex-col gap-y-4">
+              <h3 className="sm:text-[48px] text-[30px] font-bold leading-[65px]">
                 Our Mission
               </h3>
               <div>
@@ -91,20 +92,20 @@ const Values = () => {
                 </span>
               </div>
 
-              <button className=" py-[19px] px-[41px] bg-White rounded-2xl text-black font-bold w-max">
+              <button className=" py-[19px] px-[41px] bg-transparent rounded-2xl text-Secondary font-bold w-max border border-Secondary mt-3">
                 Become a member
               </button>
             </div>
           </div>
 
           {/* right box */}
-          <div className=" bg-card md:w-[40%] w-[100%]  h-min pt-3 pb-7 md:px-7 px-4">
-            <div className="border-l-2 border-White md:px-7 px-3  flex flex-col gap-y-4">
-              <h3 className="text-[48px] font-bold leading-[65px]">
+          <div className="md:w-[40%] w-[100%]  h-min pt-3 pb-7 md:px-7 px-4">
+            <div className="border-l-2 border-Primary md:px-7 px-3  flex flex-col gap-y-5">
+              <h3 className="sm:text-[48px] text-[30px] font-bold leading-[65px]">
                 Our Goals
               </h3>
               <div>
-                <p className="text-[20px] font-bold leading-[27px] mb-4">
+                <p className="text-[20px] font-bold leading-[27px] mb-5">
                   {" "}
                   Web3 Education Advancement:
                 </p>
@@ -115,7 +116,7 @@ const Values = () => {
                 </span>
               </div>
               <div>
-                <p className="text-[20px] font-bold leading-[27px] mb-4">
+                <p className="text-[20px] font-bold leading-[27px] mb-5">
                   Sustainable Solutions Development:
                 </p>
                 <span className="text-[16px] font-medium leading-[22px] ">
@@ -125,7 +126,7 @@ const Values = () => {
                 </span>
               </div>
               <div>
-                <p className="text-[20px] font-bold leading-[27px] mb-4">
+                <p className="text-[20px] font-bold leading-[27px] mb-5">
                   {" "}
                   Network State Establishment:
                 </p>

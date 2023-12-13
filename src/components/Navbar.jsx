@@ -1,7 +1,7 @@
-import React, { useState, useEffect } from "react";
+import { useState, useEffect } from "react";
 import { HiMenuAlt3 } from "react-icons/hi";
 import { AiOutlineClose } from "react-icons/ai";
-import { links } from "../constants";
+import { image } from "../constants";
 import { Link } from "react-router-dom";
 
 const Navbar = () => {
@@ -33,7 +33,7 @@ const Navbar = () => {
 
           {/* logo */}
           <div className="">
-            <h2 className="text-White font-bold text-[20px]">Timbuktu DAO</h2>
+            <img src={image.logo} alt="company_logo" />
           </div>
 
           {/* links */}
@@ -45,23 +45,37 @@ const Navbar = () => {
                 </li>;
               })} */}
 
-              <Link className="font-bold text-[20px] text-White mr-8">
+              <Link to={"/"} className="font-bold text-[20px] text-White mr-8">
                 Home{" "}
               </Link>
 
-              <Link className="font-bold text-[20px] text-White mr-8">
+              <Link
+                target="_blank"
+                to={"https://medium.com/@info_42723"}
+                className="font-bold text-[20px] text-White mr-8"
+              >
                 Blog{" "}
               </Link>
 
-              <Link className="font-bold text-[20px] text-White mr-8">
+              <Link
+                to={"/about-us"}
+                className="font-bold text-[20px] text-White mr-8"
+              >
                 About Us{" "}
               </Link>
 
-              <Link className="font-bold text-[20px] text-White mr-8">
+              <Link
+                target="_blank"
+                to={"https://timbuktu-dao.gitbook.io/timbuktu-dao"}
+                className="font-bold text-[20px] text-White mr-8"
+              >
                 Whitepaper{" "}
               </Link>
 
-              <Link className="font-bold text-[20px] text-White">
+              <Link
+                to={"/timbuktu-city"}
+                className="font-bold text-[20px] text-White"
+              >
                 Timbuktu City{" "}
               </Link>
             </div>
@@ -98,27 +112,47 @@ const Navbar = () => {
               >
                 <ul className=" py-3 px-4">
                   <li className="mb-3">
-                    <Link className="font-bold text-[20px] text-black">
+                    <Link
+                      to={"/"}
+                      onClick={() => setToggle((prev) => !prev)}
+                      className="font-bold text-[20px] text-black"
+                    >
                       Home{" "}
                     </Link>
                   </li>
                   <li className="mb-3">
-                    <Link className="font-bold text-[20px] text-black">
+                    <Link
+                      target="_blank"
+                      to={"https://medium.com/@info_42723"}
+                      className="font-bold text-[20px] text-black"
+                    >
                       Blog{" "}
                     </Link>
                   </li>
                   <li className="mb-3">
-                    <Link className="font-bold text-[20px] text-black">
+                    <Link
+                      to={"/about-us"}
+                      onClick={() => setToggle((prev) => !prev)}
+                      className="font-bold text-[20px] text-black"
+                    >
                       About Us{" "}
                     </Link>
                   </li>
                   <li className="mb-3">
-                    <Link className="font-bold text-[20px] text-black">
+                    <Link
+                      target="_blank"
+                      to={"https://timbuktu-dao.gitbook.io/timbuktu-dao"}
+                      className="font-bold text-[20px] text-black"
+                    >
                       Whitepaper{" "}
                     </Link>
                   </li>
                   <li>
-                    <Link className="font-bold text-[20px] text-black">
+                    <Link
+                      onClick={() => setToggle((prev) => !prev)}
+                      to={"/timbuktu-city"}
+                      className="font-bold text-[20px] text-black"
+                    >
                       Timbuktu City{" "}
                     </Link>
                   </li>
