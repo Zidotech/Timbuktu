@@ -15,8 +15,11 @@ const Footer = () => {
               <h3 className="text-[20px] font-bold">Quick Link</h3>
               <ul className="pt-4">
                 <li className="mb-3">
-                  <Link className="font-bold text-[16px] text-White">
-                    Home{" "}
+                  <Link
+                    to={"/about-us"}
+                    className="font-bold text-[16px] text-White"
+                  >
+                    About Us{" "}
                   </Link>
                 </li>
                 <li className="mb-3">
@@ -29,8 +32,11 @@ const Footer = () => {
                   </Link>
                 </li>
                 <li className="mb-3">
-                  <Link className="font-bold text-[16px] text-White">
-                    About Us{" "}
+                  <Link
+                    to={"/our-team"}
+                    className="font-bold text-[16px] text-White"
+                  >
+                    Our Team{" "}
                   </Link>
                 </li>
                 <li className="mb-3">
@@ -39,11 +45,14 @@ const Footer = () => {
                     to={"https://timbuktu-dao.gitbook.io/timbuktu-dao"}
                     className="font-bold text-[16px] text-White"
                   >
-                    Whitepaper{" "}
+                    Scroll{" "}
                   </Link>
                 </li>
                 <li>
-                  <Link className="font-bold text-[16px] text-White">
+                  <Link
+                    to={"/timbuktu-city"}
+                    className="font-bold text-[16px] text-White"
+                  >
                     Timbuktu City{" "}
                   </Link>
                 </li>

@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import { HiMenuAlt3 } from "react-icons/hi";
 import { AiOutlineClose } from "react-icons/ai";
-import { image } from "../constants";
+import { Links, image } from "../constants";
 import { Link } from "react-router-dom";
 
 const Navbar = () => {
@@ -32,54 +32,28 @@ const Navbar = () => {
           {/* Nav links */}
 
           {/* logo */}
-          <div className="">
+
+          <Link to={"/"}>
             <img src={image.logo} alt="company_logo" />
-          </div>
+          </Link>
 
           {/* links */}
-          <div>
-            <div className=" md:flex hidden">
-              {/* {links.map((nav) => {
-                <li key={nav.id}>
-                  <a href={nav.url}>{nav.text}</a>
-                </li>;
-              })} */}
 
-              <Link to={"/"} className="font-bold text-[20px] text-White mr-8">
-                Home{" "}
-              </Link>
-
+          <nav className=" md:flex hidden ">
+            {Links.map((link, index) => (
               <Link
-                target="_blank"
-                to={"https://medium.com/@info_42723"}
-                className="font-bold text-[20px] text-White mr-8"
+                to={link.url}
+                target={link.target}
+                key={index}
+                className={`font-bold text-[20px] text-White ${
+                  index === Links.length - 1 ? "mr-0" : "md:mr-8 mr-0"
+                } ${active === link.url ? "active" : ""} hover:text-Primary`}
+                onClick={() => setActive(link.url)}
               >
-                Blog{" "}
+                {link.text}
               </Link>
-
-              <Link
-                to={"/about-us"}
-                className="font-bold text-[20px] text-White mr-8"
-              >
-                About Us{" "}
-              </Link>
-
-              <Link
-                target="_blank"
-                to={"https://timbuktu-dao.gitbook.io/timbuktu-dao"}
-                className="font-bold text-[20px] text-White mr-8"
-              >
-                Whitepaper{" "}
-              </Link>
-
-              <Link
-                to={"/timbuktu-city"}
-                className="font-bold text-[20px] text-White"
-              >
-                Timbuktu City{" "}
-              </Link>
-            </div>
-          </div>
+            ))}
+          </nav>
 
           {/* contact btn */}
           <div className="md:flex hidden">
@@ -113,11 +87,11 @@ const Navbar = () => {
                 <ul className=" py-3 px-4">
                   <li className="mb-3">
                     <Link
-                      to={"/"}
+                      to={"/about-us"}
                       onClick={() => setToggle((prev) => !prev)}
                       className="font-bold text-[20px] text-black"
                     >
-                      Home{" "}
+                      About Us{" "}
                     </Link>
                   </li>
                   <li className="mb-3">
@@ -131,11 +105,10 @@ const Navbar = () => {
                   </li>
                   <li className="mb-3">
                     <Link
-                      to={"/about-us"}
-                      onClick={() => setToggle((prev) => !prev)}
+                      to={"/our_team"}
                       className="font-bold text-[20px] text-black"
                     >
-                      About Us{" "}
+                      Our Team
                     </Link>
                   </li>
                   <li className="mb-3">
@@ -144,7 +117,7 @@ const Navbar = () => {
                       to={"https://timbuktu-dao.gitbook.io/timbuktu-dao"}
                       className="font-bold text-[20px] text-black"
                     >
-                      Whitepaper{" "}
+                      Scroll{" "}
                     </Link>
                   </li>
                   <li>
@@ -173,3 +146,41 @@ const Navbar = () => {
 };
 
 export default Navbar;
+{
+  /* <Link
+              to={"/about-us"}
+              className="font-bold text-[20px] text-White mr-8"
+            >
+              About Us{" "}
+            </Link>
+
+            <Link
+              target="_blank"
+              to={"https://medium.com/@info_42723"}
+              className="font-bold text-[20px] text-White mr-8"
+            >
+              Blog{" "}
+            </Link>
+
+            <Link
+              to={"/our_team"}
+              className="font-bold text-[20px] text-White mr-8"
+            >
+              Our Team
+            </Link>
+
+            <Link
+              target="_blank"
+              to={"https://timbuktu-dao.gitbook.io/timbuktu-dao"}
+              className="font-bold text-[20px] text-White mr-8"
+            >
+              Scroll{" "}
+            </Link>
+
+            <Link
+              to={"/timbuktu-city"}
+              className="font-bold text-[20px] text-White"
+            >
+              Timbuktu City{" "}
+            </Link> */
+}

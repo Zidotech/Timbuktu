@@ -2,7 +2,7 @@ import "./App.css";
 import { useEffect } from "react";
 import { Routes, Route, useLocation } from "react-router-dom";
 import { Footer, Home, Navbar } from "./components";
-import { AboutUs, TimbuktuCity } from "./pages";
+import { AboutUs, OurTeam, TimbuktuCity } from "./pages";
 
 function App() {
   const location = useLocation(); // Get the current location
@@ -18,7 +18,8 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about-us" element={<AboutUs />} />
-        <Route path="/about-us" element={<TimbuktuCity />} />
+        <Route path="/timbuktu-City" element={<TimbuktuCity />} />
+        <Route path="/our-team" element={<OurTeam />} />
       </Routes>
 
       <Footer />

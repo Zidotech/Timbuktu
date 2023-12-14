@@ -8,6 +8,9 @@ import linkdIn from "../assets/linkedin-1-svgrepo-com.svg";
 import facebook from "../assets/facebook-1-svgrepo-com.svg";
 import instagram from "../assets/instagram-1-svgrepo-com.svg";
 import logo from "../assets/Logo.svg";
+import about_img from "../assets/about img.png";
+import our_vision from "../assets/our vision.png";
+import elipse from "../assets/Ellipse 3.png";
 
 export default {
   hero_img,
@@ -20,4 +23,7 @@ export default {
   facebook,
   instagram,
   logo,
+  about_img,
+  our_vision,
+  elipse,
 };
