@@ -105,7 +105,8 @@ const Navbar = () => {
                   </li>
                   <li className="mb-3">
                     <Link
-                      to={"/our_team"}
+                      to={"/our-team"}
+                      onClick={() => setToggle((prev) => !prev)}
                       className="font-bold text-[20px] text-black"
                     >
                       Our Team

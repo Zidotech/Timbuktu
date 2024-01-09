@@ -4,8 +4,8 @@ import { image } from "../constants";
 const AboutUs = () => {
   return (
     <section>
-      <div className="relative sm:h-[100vh] h-[94vh]">
-        <div className="absolute top-[20%] md:top-[15%]  w-full ">
+      <div className="relative sm:h-[88vh] h-[82vh]">
+        <div className="absolute top-[10%] md:top-[13%]  w-full ">
           <div className="flex justify-between items-center section pt-10 ">
             <div className="text-white sm:w-[54%] w-full mx-auto pt-4 ">
               <div className="flex flex-col gap-y-5 md:gap-y-[50px] text-center justify-center  items-center w-full   ">

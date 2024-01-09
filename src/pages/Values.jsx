@@ -10,7 +10,7 @@ const Values = () => {
           </h3>
 
           <div className="py-5">
-            <div className="md:w-[40%] mx-auto text-center w-[80%]">
+            <div className="md:w-[40%] mx-auto text-center w-[98%]">
               <h1 className="text-[20px] font-bold">Inclusivity:</h1>
               <p className="text-[16px] font-medium">
                 {" "}
@@ -20,9 +20,9 @@ const Values = () => {
               </p>
             </div>
 
-            <div className="flex mt-12 md:flex-row flex-col">
-              <div className="flex flex-col justify-between py-5 pr-4 md:gap-y-0 gap-y-3">
-                <div className="text-right ">
+            <div className="flex md:mt-12 md:flex-row flex-col">
+              <div className="flex flex-col justify-between md:py-5 py-3 md:pr-4 md:gap-y-0 gap-y-3">
+                <div className="md:text-right text-center ">
                   <h1 className="text-[20px] font-bold"> Empowerment:</h1>
                   <p className="text-[16px] font-medium">
                     {" "}
@@ -32,7 +32,7 @@ const Values = () => {
                     continent's development.
                   </p>
                 </div>
-                <div className=" text-right">
+                <div className=" md:text-right text-center">
                   <h1 className="text-[20px] font-bold"> Collaboration:</h1>
                   <p className="text-[16px] font-medium">
                     {" "}
@@ -43,12 +43,12 @@ const Values = () => {
                 </div>
               </div>
 
-              <div className=" h-[380px] w-[700px]">
+              <div className="md:block hidden h-[380px] w-[700px]">
                 <img src={image.shape_pentagon} alt="" className="h-[80%]" />
               </div>
 
-              <div className="flex flex-col justify-between pt-6 pb-9 pl-3 md:gap-y-0 gap-y-3">
-                <div className=" ">
+              <div className="flex flex-col justify-between md:pt-6  pb-9 md:pl-3 md:gap-y-0 gap-y-3">
+                <div className="md:text-left text-center">
                   <h1 className="text-[20px] font-bold"> Innovation:</h1>
                   <p className="text-[16px] font-medium">
                     {" "}
@@ -57,7 +57,7 @@ const Values = () => {
                     to solving Africa's challenges.
                   </p>
                 </div>
-                <div className="">
+                <div className="md:text-left text-center">
                   <h1 className="text-[20px] font-bold">Openness:</h1>
                   <p className="text-[16px] font-medium">
                     {" "}
