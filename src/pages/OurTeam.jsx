@@ -28,9 +28,9 @@ const OurTeam = () => {
           {TeamCard.map((card) => (
             <div
               key={card.id}
-              className="text-black border-2 border-Primary rounded-t-lg sm:w-[323px]  w-[90%] mx-auto sm:mx-0 pt-8 flex flex-col gap-y-5 items-center justify-center bg-Tertiary"
+              className="text-black border-2 border-Primary rounded-t-lg sm:w-[323px]  w-[90%] mx-auto sm:mx-0 pt-8 flex flex-col  items-center justify-between bg-Tertiary h-[400px]"
             >
-              <img src={card.img} alt="" className="w-[200px]" />
+              <img src={card.img} alt="" className="w-[200px] rounded-full" />
               <div className="text-center">
                 <p className="font-medium text-[20px]">{card.name}</p>
                 <span className="font-medium">{card.role}</span>

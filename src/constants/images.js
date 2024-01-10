@@ -12,6 +12,20 @@ import about_img from "../assets/about img.png";
 import our_vision from "../assets/our vision.png";
 import elipse from "../assets/Ellipse 3.png";
 
+import faith from "../assets/faith.jpg";
+import abdul from "../assets/abdul.jpg";
+import asang from "../assets/asang.jpg";
+import ayobami from "../assets/ayobami.jpg";
+import bola from "../assets/bola.jpg";
+import feyii from "../assets/feyii.jpg";
+import frisco from "../assets/frisco.jpg";
+import income from "../assets/income.jpg";
+import ogozi from "../assets/ogozi.jpg";
+import watashi from "../assets/watashi.jpg";
+import zido from "../assets/zido.jpg";
+import sammie from "../assets/sammie.jpg";
+import ganiwu from "../assets/ganiwu.jpg";
+
 export default {
   hero_img,
   discord_logo,
@@ -26,4 +40,17 @@ export default {
   about_img,
   our_vision,
   elipse,
+  faith,
+  abdul,
+  asang,
+  ayobami,
+  bola,
+  feyii,
+  frisco,
+  income,
+  ogozi,
+  watashi,
+  zido,
+  sammie,
+  ganiwu,
 };
