@@ -13,7 +13,7 @@ body {
 .hero__bg {
   position: relative;
   height: 100vh; /* Make the container take the full viewport height */
-  background-image: url("./assets/hero_bg.png");
+  background-image: url("./assets/hero_bg3.png");
   background-size: cover;
   background-position: center;
 }

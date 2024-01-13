@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 import { image } from "../constants";
 
 const Values = () => {
@@ -72,7 +73,7 @@ const Values = () => {
         </div>
 
         {/* mission and goals section */}
-        <div className="flex justify-between md:flex-row flex-col md:gap-y-0 gap-y-6">
+        <div className="flex justify-between md:flex-row flex-col md:gap-y-0 gap-y-6 sm:mt-[150px] mt-[50px]">
           {/* left box */}
           <div className=" md:w-[43%] w-[100%] h-min pt-3 pb-7 md:px-7 px-4">
             <div className=" border-l-2 border-Primary md:px-7 px-3  flex flex-col gap-y-4">

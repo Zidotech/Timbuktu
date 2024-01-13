@@ -57,9 +57,11 @@ const Navbar = () => {
 
           {/* contact btn */}
           <div className="md:flex hidden">
-            <button className=" bg-White text-black py-[15px] px-[34px] rounded-full font-bold">
-              Contact Us
-            </button>
+            <Link target="_blank" to={"mailto:info@timbuktudao.xyz"}>
+              <button className=" bg-White text-black py-[15px] px-[34px] rounded-full font-bold">
+                Contact Us
+              </button>
+            </Link>
           </div>
 
           {/* mobile nav */}
@@ -133,9 +135,15 @@ const Navbar = () => {
                 </ul>
 
                 <div className="w-full flex justify-center pb-3">
-                  <button className=" bg-black text-white py-[15px] px-[34px] rounded-full font-bold w-[90%]">
-                    Contact Us
-                  </button>
+                  <Link
+                    target="_blank"
+                    to={"mailto:info@timbuktudao.xyz"}
+                    className="w-1/2"
+                  >
+                    <button className=" bg-black text-white py-[15px] sm:px-[34px] rounded-full font-bold w-full">
+                      Contact Us
+                    </button>
+                  </Link>
                 </div>
               </div>
             )}

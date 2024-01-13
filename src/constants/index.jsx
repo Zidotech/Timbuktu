@@ -55,11 +55,11 @@ export const TeamCard = [
   },
   {
     id: 3,
-    name: " Adebisi Quadri",
-    role: "Product Lead",
+    name: " Adelabu AbduQuadri",
+    role: "Product Design Lead",
     img: image.abdul,
-    linkedin: "",
-    x: "https://x.com/custommade_ng/",
+    linkedin: "https://www.linkedin.com/in/realbislab/",
+    x: "https://twitter.com/DTekDude",
   },
   {
     id: 4,

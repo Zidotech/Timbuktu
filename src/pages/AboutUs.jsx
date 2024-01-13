@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 import { Link } from "react-router-dom";
 import { image } from "../constants";
 
@@ -21,7 +22,11 @@ const AboutUs = () => {
                   to the collective growth and success of our community
                 </p>
 
-                <Link className=" bg-Secondary text-black py-[18px] px-[40px] rounded-2xl font-bold flex gap-x-4 items-center">
+                <Link
+                  target="_blank"
+                  to={"https://t.me/timbuktuD"}
+                  className=" bg-Secondary text-black py-[18px] px-[40px] rounded-2xl font-bold flex gap-x-4 items-center"
+                >
                   <a>Join Us</a>
                 </Link>
               </div>
@@ -89,10 +94,11 @@ const AboutUs = () => {
           </p>
 
           <div className="flex gap-x-10">
-            <Link className="  py-[19px] px-[41px] bg-transparent rounded-2xl text-Secondary font-bold w-max border border-Secondary ">
-              <a>Support Us</a>
-            </Link>
-            <Link className=" bg-Secondary text-black py-[18px] px-[40px] rounded-2xl font-bold w-max">
+            <Link
+              target="_blank"
+              to={"https://t.me/timbuktuD"}
+              className=" bg-Secondary text-black py-[18px] px-[40px] rounded-2xl font-bold w-max"
+            >
               <a>Join Us</a>
             </Link>
           </div>

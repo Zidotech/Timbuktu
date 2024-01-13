@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 const Hero = () => {
   return (
     <div className="hero__bg">
-      <div className="absolute top-[10%] md:top-[15%]  w-full ">
+      <div className="absolute top-[10%] md:top-[22%]  w-full ">
         <div className="flex justify-between items-center section pt-10 ">
           <div className="text-white sm:w-[60%] w-full mx-auto pt-4 ">
             <div className="flex flex-col gap-y-5 md:gap-y-[50px] text-center justify-center  items-center w-full   ">
