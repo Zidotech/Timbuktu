@@ -43,15 +43,17 @@ export const TeamCard = [
     img: image.frisco,
     linkedin:
       "https://www.linkedin.com/in/afrikanus-kofi-akosah-adusei-ba25aa88/",
+    linkedin_icon: image.linkdIn,
     x: "http://twitter.com/CryptoTraveler1",
+    x_icon: image.twitter,
   },
   {
     id: 2,
     name: " Feyisayo Onos",
     role: "Marketing Lead",
     img: image.feyii,
-    linkedin: "",
     x: "https://x.com/custommade_ng/",
+    x_icon: image.twitter,
   },
   {
     id: 3,
@@ -60,14 +62,18 @@ export const TeamCard = [
     img: image.abdul,
     linkedin: "https://www.linkedin.com/in/realbislab/",
     x: "https://twitter.com/DTekDude",
+    linkedin_icon: image.linkdIn,
+    x_icon: image.twitter,
   },
   {
     id: 4,
     name: "Faith M. Roberts",
     role: "Technical Education Lead",
     img: image.faith,
-    linkedin: "Linkedin.com/in/faytey7",
-    x: "Twitter.com/faytey7",
+    linkedin: "https://www.linkedin.com/in/faytey7/",
+    x: "https://twitter.com/faytey7",
+    linkedin_icon: image.linkdIn,
+    x_icon: image.twitter,
   },
   {
     id: 5,
@@ -77,6 +83,8 @@ export const TeamCard = [
     linkedin:
       "https://www.linkedin.com/in/akolade-ogundiran-7249aa129?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
     x: "https://x.com/SamuelSonOfMan?t=2Ng3ZdfH4LNYD-GLfwdUJQ&s=09",
+    linkedin_icon: image.linkdIn,
+    x_icon: image.twitter,
   },
   {
     id: 6,
@@ -85,7 +93,8 @@ export const TeamCard = [
     img: image.ayobami,
     linkedin:
       "https://www.linkedin.com/in/ayobami-abiola-387435106?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
-    x: "",
+
+    linkedin_icon: image.linkdIn,
   },
   {
     id: 7,
@@ -94,6 +103,8 @@ export const TeamCard = [
     img: image.zido,
     linkedin: "https://www.linkedin.com/in/zulukhanini-tijani-447751238",
     x: "https://twitter.com/Zidotech",
+    linkedin_icon: image.linkdIn,
+    x_icon: image.twitter,
   },
   {
     id: 8,
@@ -102,14 +113,16 @@ export const TeamCard = [
     img: image.asang,
     linkedin: "https://www.linkedin.com/in/asang-nehemiah-forgwe-094067",
     x: "https://x.com/AsangNehemiah?s=09",
+    linkedin_icon: image.linkdIn,
+    x_icon: image.twitter,
   },
   {
     id: 9,
     name: "Abdul Ganiwu",
     role: "Graphic Designer",
     img: image.ganiwu,
-    linkedin: " https://www.linkedin.com/in/abdulganiwu/",
-    x: "",
+    linkedin: "https://www.linkedin.com/in/abdulganiwu",
+    linkedin_icon: image.linkdIn,
   },
   {
     id: 10,
@@ -118,6 +131,8 @@ export const TeamCard = [
     img: image.ogozi,
     linkedin: "https://www.linkedin.com/in/ogozi-precious-a28939220",
     x: "https://x.com/OgoziPrecious ",
+    linkedin_icon: image.linkdIn,
+    x_icon: image.twitter,
   },
   {
     id: 11,
@@ -127,6 +142,8 @@ export const TeamCard = [
     linkedin:
       "https://www.linkedin.com/in/okechukwu-jude-47a406254?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
     x: "https://x.com/Juxelabs?t=laFqHAH8rlM_mEOwjDqUeA&s=09",
+    linkedin_icon: image.linkdIn,
+    x_icon: image.twitter,
   },
 
   {
@@ -137,6 +154,8 @@ export const TeamCard = [
     linkedin:
       "https://www.linkedin.com/in/kehinde-akinbola-b4a6011a9?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app",
     x: "https://twitter.com/kenzman18",
+    linkedin_icon: image.linkdIn,
+    x_icon: image.twitter,
   },
 ];
 

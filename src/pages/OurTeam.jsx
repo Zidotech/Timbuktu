@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import { TeamCard, image } from "../constants";
+import { TeamCard } from "../constants";
 
 const OurTeam = () => {
   return (
@@ -28,7 +28,7 @@ const OurTeam = () => {
           {TeamCard.map((card) => (
             <div
               key={card.id}
-              className="text-black border-2 border-Primary rounded-t-lg sm:w-[323px]  w-[90%] mx-auto sm:mx-0 pt-8 flex flex-col  items-center justify-between bg-Tertiary h-[400px]"
+              className="text-black border-2 border-Primary rounded-t-lg sm:w-[323px]  w-[90%] mx-auto sm:mx-0 pt-8 flex flex-col items-center justify-between bg-Tertiary h-[400px]"
             >
               <img src={card.img} alt="" className="w-[200px] rounded-full" />
               <div className="text-center">
@@ -39,13 +39,21 @@ const OurTeam = () => {
               <div className="flex gap-x-5 bg-Primary w-full justify-center py-3">
                 <Link target="_blank" to={card.linkedin}>
                   <img
-                    src={image.linkdIn}
+                    src={card.linkedin_icon}
                     alt="Linkedin"
-                    className="w-[30px]"
+                    className={`w-[30px] ${
+                      card.linkedin_icon === undefined ? "hidden" : ""
+                    }`}
                   />
                 </Link>
                 <Link target="_blank" to={card.x}>
-                  <img src={image.twitter} alt="X" className="w-[30px]" />{" "}
+                  <img
+                    src={card.x_icon}
+                    alt="X"
+                    className={`w-[30px] ${
+                      card.x_icon === undefined ? "hidden" : ""
+                    }`}
+                  />{" "}
                 </Link>
               </div>
             </div>
