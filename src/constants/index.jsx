@@ -48,7 +48,7 @@ export const TeamCard = [
   {
     id: 2,
     name: " Feyisayo Onos",
-    role: "Head Marketer",
+    role: "Marketing Lead",
     img: image.feyii,
     linkedin: "",
     x: "https://x.com/custommade_ng/",
@@ -56,7 +56,7 @@ export const TeamCard = [
   {
     id: 3,
     name: " Adelabu AbduQuadri",
-    role: "Product Design Lead",
+    role: "Lead Product Designer",
     img: image.abdul,
     linkedin: "https://www.linkedin.com/in/realbislab/",
     x: "https://twitter.com/DTekDude",
@@ -64,7 +64,7 @@ export const TeamCard = [
   {
     id: 4,
     name: "Faith M. Roberts",
-    role: "Technical trainer",
+    role: "Technical Education Lead",
     img: image.faith,
     linkedin: "Linkedin.com/in/faytey7",
     x: "Twitter.com/faytey7",
@@ -72,7 +72,7 @@ export const TeamCard = [
   {
     id: 5,
     name: "Akolade Sammie",
-    role: "Community Manager",
+    role: "Community Lead",
     img: image.sammie,
     linkedin:
       "https://www.linkedin.com/in/akolade-ogundiran-7249aa129?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
@@ -81,7 +81,7 @@ export const TeamCard = [
   {
     id: 6,
     name: "Ayobami Abiola",
-    role: "Community Manager",
+    role: "Communications Lead",
     img: image.ayobami,
     linkedin:
       "https://www.linkedin.com/in/ayobami-abiola-387435106?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
@@ -98,7 +98,7 @@ export const TeamCard = [
   {
     id: 8,
     name: "Asang Nehemiah",
-    role: "Community manager",
+    role: "Events Lead",
     img: image.asang,
     linkedin: "https://www.linkedin.com/in/asang-nehemiah-forgwe-094067",
     x: "https://x.com/AsangNehemiah?s=09",
@@ -114,23 +114,15 @@ export const TeamCard = [
   {
     id: 10,
     name: "Ogozi Precious.",
-    role: "Head of Events",
+    role: "Events Associate",
     img: image.ogozi,
     linkedin: "https://www.linkedin.com/in/ogozi-precious-a28939220",
     x: "https://x.com/OgoziPrecious ",
   },
   {
     id: 11,
-    name: "watashiwaherodesu",
-    role: "Graphics Designer",
-    img: image.watashi,
-    linkedin: "",
-    x: "https://x.com/HERO__WEB3?s=09",
-  },
-  {
-    id: 12,
     name: "Okechukwu Jude",
-    role: " CM, designer and Writer/threador",
+    role: "Community Associate",
     img: image.income,
     linkedin:
       "https://www.linkedin.com/in/okechukwu-jude-47a406254?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
@@ -138,9 +130,9 @@ export const TeamCard = [
   },
 
   {
-    id: 13,
+    id: 12,
     name: "Akinbola Kehinde",
-    role: "Technical trainer II",
+    role: "Developer Relations",
     img: image.bola,
     linkedin:
       "https://www.linkedin.com/in/kehinde-akinbola-b4a6011a9?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app",
