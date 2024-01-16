@@ -14,7 +14,7 @@ const AboutUs = () => {
                   About
                   <span className=" text-Primary">Us</span>
                 </h3>
-                <p className=" text-[20px] text-focus-in ">
+                <p className="sm:text-[20px] text-[18px] text-focus-in ">
                   Timbuktu DAO is a decentralized autonomous organization built
                   on the principles of community, innovation, and decentralized
                   governance.We are on a mission to create a vibrant and
@@ -45,9 +45,9 @@ const AboutUs = () => {
 
       <div className="section text-white flex flex-col gap-y-16 ">
         <div className="mt-10">
-          <h3 className="text-[48px]">Our Vision</h3>
+          <h3 className="sm:text-[48px] text-[30px]">Our Vision</h3>
 
-          <p className="text-[20px] font-medium mt-6">
+          <p className="sm:text-[20px] text-[18px] font-medium mt-6">
             Our clear-cut vision is to equip Africans with the technical skills
             required to thrive in the Web3 revolution. As Web3 technology
             becomes an indispensable element of global progress, Africa must not
@@ -58,9 +58,9 @@ const AboutUs = () => {
         </div>
 
         <div>
-          <h3 className="text-[48px]">What We Do</h3>
+          <h3 className="sm:text-[48px] text-[30px]">What We Do</h3>
 
-          <p className="text-[20px] font-medium mt-9">
+          <p className="sm:text-[20px] text-[18px] font-medium mt-9">
             Timbuktu DAO is a visionary initiative that draws inspiration from
             the ancient African city of Timbuktu, renowned for its learning,
             knowledge, economic prosperity, and enlightenment legacy. In the
@@ -68,14 +68,14 @@ const AboutUs = () => {
             for technically skilled individuals to construct decentralized
             solutions for sustainable development is more pronounced than ever.
           </p>
-          <p className="text-[20px] font-medium mt-6">
+          <p className="sm:text-[20px] text-[18px] font-medium mt-6">
             Timbuktu DAO is an inclusive community comprising Builders,
             learners, Thinkers, Entrepreneurs, Developers, Designers, creatives,
             creators, Educators, Activists, and Analysts. Our primary focus is
             furnishing Web3 Technical Education and cultivating opportunities to
             create decentralized tools to address Africa's manifold challenges.
           </p>
-          <p className="text-[20px] font-medium mt-6">
+          <p className="sm:text-[20px] text-[18px] font-medium mt-6">
             The ultimate aspiration is to build a Network State City within
             Africa as an innovation hub for teaching, learning, investing, and
             building with blockchain technology. Our overarching mission is to
@@ -84,8 +84,12 @@ const AboutUs = () => {
         </div>
 
         <div className="sm:text-center flex flex-col gap-y-8 items-center">
-          <img src={image.our_vision} alt="our_vision" />
-          <p className="text-[20px] font-medium">
+          <img
+            src={image.join_timb}
+            alt="our_vision"
+            className="sm:w-[450px] w-[280px]"
+          />
+          <p className="sm:text-[20px] text-[18px] font-medium">
             Become a part of Timbuktu DAO and contribute to a community that
             values your voice and insights. Whether you're an experienced
             developer, a blockchain enthusiast, or someone looking to engage
