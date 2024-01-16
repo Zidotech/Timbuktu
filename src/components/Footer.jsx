@@ -25,7 +25,7 @@ const Footer = () => {
                 <li className="mb-3">
                   <Link
                     target="_blank"
-                    to={"https://medium.com/@info_42723"}
+                    to={"https://timbuktudao.medium.com/"}
                     className="font-bold text-[16px] text-White"
                   >
                     Blog{" "}

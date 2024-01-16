@@ -58,7 +58,7 @@ const Navbar = () => {
           {/* contact btn */}
           <div className="md:flex hidden">
             <Link target="_blank" to={"mailto:info@timbuktudao.xyz"}>
-              <button className=" bg-White text-black py-[15px] px-[34px] rounded-full font-bold">
+              <button className=" bg-White text-black py-[15px] px-[34px] rounded-full font-bold hover:bg-transparent hover:text-White hover:border-4 hover:border-Primary">
                 Contact Us
               </button>
             </Link>
@@ -66,32 +66,34 @@ const Navbar = () => {
 
           {/* mobile nav */}
           <div className="lg:hidden flex">
-            {toggle ? (
-              <AiOutlineClose
-                alt="menu-icon"
-                className={`w-[33px]  h-[38px] object-contain text-White`}
-                onClick={() => setToggle(false)}
-              />
-            ) : (
-              <HiMenuAlt3
-                alt="menu-icon"
-                className={`w-[33px]  h-[38px] object-contain text-White`}
-                onClick={() => setToggle((prev) => !prev)}
-              />
-            )}
+            <HiMenuAlt3
+              alt="menu-icon"
+              className={`w-[33px]  h-[38px] object-contain text-White`}
+              onClick={() => setToggle((prev) => !prev)}
+            />
 
             {toggle && (
               <div
                 className={`${
                   toggle ? "block" : "hidden"
-                } bg-white z-50 absolute top-[70px] left-0 right-0 w-full`}
+                } bg-black text-White z-50 absolute top-0 left-0 right-0 w-full py-5 px-5`}
               >
-                <ul className=" py-3 px-4">
+                <div className="flex justify-between items-center">
+                  <div className="">
+                    <img src={image.logo} alt="" className="" />
+                  </div>
+                  <AiOutlineClose
+                    fontSize={27}
+                    className="overlay__close"
+                    onClick={() => setToggle(false)}
+                  />
+                </div>
+                <ul className="py-5">
                   <li className="mb-3">
                     <Link
                       to={"/about-us"}
                       onClick={() => setToggle((prev) => !prev)}
-                      className="font-bold text-[20px] text-black"
+                      className="font-bold text-[20px] "
                     >
                       About Us{" "}
                     </Link>
@@ -99,8 +101,8 @@ const Navbar = () => {
                   <li className="mb-3">
                     <Link
                       target="_blank"
-                      to={"https://medium.com/@info_42723"}
-                      className="font-bold text-[20px] text-black"
+                      to={"https://timbuktudao.medium.com/"}
+                      className="font-bold text-[20px] "
                     >
                       Blog{" "}
                     </Link>
@@ -109,7 +111,7 @@ const Navbar = () => {
                     <Link
                       to={"/our-team"}
                       onClick={() => setToggle((prev) => !prev)}
-                      className="font-bold text-[20px] text-black"
+                      className="font-bold text-[20px] "
                     >
                       Our Team
                     </Link>
@@ -118,7 +120,7 @@ const Navbar = () => {
                     <Link
                       target="_blank"
                       to={"https://timbuktu-dao.gitbook.io/timbuktu-dao"}
-                      className="font-bold text-[20px] text-black"
+                      className="font-bold text-[20px] "
                     >
                       Scroll{" "}
                     </Link>
@@ -127,7 +129,7 @@ const Navbar = () => {
                     <Link
                       onClick={() => setToggle((prev) => !prev)}
                       to={"/timbuktu-city"}
-                      className="font-bold text-[20px] text-black"
+                      className="font-bold text-[20px] "
                     >
                       Timbuktu City{" "}
                     </Link>
@@ -140,7 +142,7 @@ const Navbar = () => {
                     to={"mailto:info@timbuktudao.xyz"}
                     className="w-1/2"
                   >
-                    <button className=" bg-black text-white py-[15px] sm:px-[34px] rounded-full font-bold w-full">
+                    <button className=" bg-white text-black py-[15px] sm:px-[34px] rounded-full font-bold w-full">
                       Contact Us
                     </button>
                   </Link>
@@ -155,41 +157,3 @@ const Navbar = () => {
 };
 
 export default Navbar;
-{
-  /* <Link
-              to={"/about-us"}
-              className="font-bold text-[20px] text-White mr-8"
-            >
-              About Us{" "}
-            </Link>
-
-            <Link
-              target="_blank"
-              to={"https://medium.com/@info_42723"}
-              className="font-bold text-[20px] text-White mr-8"
-            >
-              Blog{" "}
-            </Link>
-
-            <Link
-              to={"/our_team"}
-              className="font-bold text-[20px] text-White mr-8"
-            >
-              Our Team
-            </Link>
-
-            <Link
-              target="_blank"
-              to={"https://timbuktu-dao.gitbook.io/timbuktu-dao"}
-              className="font-bold text-[20px] text-White mr-8"
-            >
-              Scroll{" "}
-            </Link>
-
-            <Link
-              to={"/timbuktu-city"}
-              className="font-bold text-[20px] text-White"
-            >
-              Timbuktu City{" "}
-            </Link> */
-}

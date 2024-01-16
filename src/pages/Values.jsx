@@ -1,5 +1,6 @@
+/* eslint-disable no-unused-vars */
 /* eslint-disable react/no-unescaped-entities */
-import { image } from "../constants";
+import { RoadMap, image } from "../constants";
 
 const Values = () => {
   return (
@@ -160,6 +161,42 @@ const Values = () => {
             </h4>
           </div>
         </div> */}
+
+        {/* ROADMAP 2024 */}
+        <div className=" sm:mt-[150px] mt-[50px]">
+          <h2 className="text-center sm:text-[48px] text-[27px] font-bold">
+            Road Map 2024
+          </h2>
+
+          <div className="pb-16 pt-24 px-2  sm:mt-[50px] mt-[20px]">
+            <div className="flex justify-center flex-wrap sm:gap-7 gap-14">
+              {RoadMap.map((card, index) => (
+                <div
+                  key={card.id}
+                  className="bg-Primary relative px-4 sm:w-[20%] w-full rounded-2xl text-center py-16"
+                >
+                  <div className="clip-path bg-Secondary absolute top-0 left-1/2 transform -translate-x-1/2 -translate-y-1/2 py-9 px-12 text-center text-white border-4 border-Secondary rounded-3xl">
+                    <h3 className="text-[32px]">{card.quarter}</h3>
+                  </div>
+                  <ul className="text-black">
+                    {card.items.map((item, index) => (
+                      <li
+                        key={item.id}
+                        className={`text-[18px] font-Manrope font-medium ${
+                          index === card.items.length - 1
+                            ? ""
+                            : "mb-3 border-b-4 pb-3 border-dashed border-BorderB"
+                        }`}
+                      >
+                        {item.plan}
+                      </li>
+                    ))}
+                  </ul>
+                </div>
+              ))}
+            </div>
+          </div>
+        </div>
       </div>
     </section>
   );

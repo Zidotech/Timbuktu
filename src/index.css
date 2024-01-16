@@ -39,3 +39,15 @@ body {
 .active {
   border-bottom: 2px solid rgba(255, 122, 60, 1);
 }
+
+.clip-path {
+  clip-path: polygon(48% 16%, 80% 53%, 48% 90%, 16% 52%);
+}
+
+.text-with-colored-underline {
+  text-decoration: underline;
+  text-decoration-color: hsla(240, 100%, 50%, 1);
+  color: inherit;
+  text-decoration-thickness: 2px;
+  text-underline-offset: 8px;
+}

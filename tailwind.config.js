@@ -13,6 +13,7 @@ export default {
         Other: "hsl(16, 70%, 36%)",
         card: "rgba(4, 11, 28, 1)",
         Border: "rgba(255, 255, 255, 1)",
+        BorderB: "hsl(3, 29%, 60%)",
       },
       fontFamily: {
         Manrope: ["Manrope", "sans - serif"],

@@ -56,7 +56,7 @@ export const TeamCard = [
   {
     id: 3,
     name: " Adelabu AbduQuadri",
-    role: "Product Design Lead",
+    role: "Lead Product Designer",
     img: image.abdul,
     linkedin: "https://www.linkedin.com/in/realbislab/",
     x: "https://twitter.com/DTekDude",
@@ -145,5 +145,88 @@ export const TeamCard = [
     linkedin:
       "https://www.linkedin.com/in/kehinde-akinbola-b4a6011a9?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app",
     x: "https://twitter.com/kenzman18",
+  },
+];
+
+export const RoadMap = [
+  {
+    id: 1,
+    quarter: "Q1",
+    items: [
+      {
+        id: 1,
+        plan: "Token Launch",
+      },
+      {
+        id: 2,
+        plan: "Smart Contract Bootcamps",
+      },
+      {
+        id: 3,
+        plan: "Community Expansion & Partnerships",
+      },
+      {
+        id: 4,
+        plan: "Voting & Proposals",
+      },
+    ],
+  },
+  {
+    id: 2,
+    quarter: "Q2",
+    items: [
+      {
+        id: 1,
+        plan: "Building of On-chain Educational Platform",
+      },
+      {
+        id: 2,
+        plan: "DAOfest",
+      },
+      {
+        id: 3,
+        plan: "Physical Launch",
+      },
+      {
+        id: 4,
+        plan: "African Outreach Tour",
+      },
+    ],
+  },
+  {
+    id: 3,
+    quarter: "Q3",
+    items: [
+      {
+        id: 1,
+        plan: "NFT Governance",
+      },
+      {
+        id: 2,
+        plan: "IRL Bootcamps",
+      },
+      {
+        id: 3,
+        plan: "Decentralized Tool Building Initiative",
+      },
+    ],
+  },
+  {
+    id: 4,
+    quarter: "Q4",
+    items: [
+      {
+        id: 1,
+        plan: "Developers Retreat",
+      },
+      {
+        id: 2,
+        plan: "Hackathons/Builders Challenge",
+      },
+      {
+        id: 3,
+        plan: "Governance Restructuring",
+      },
+    ],
   },
 ];
