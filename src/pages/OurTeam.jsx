@@ -13,10 +13,6 @@ const OurTeam = () => {
                   Get To Know &nbsp;
                   <span className=" text-Primary">Our Team</span>
                 </h3>
-                <p className="text-[16px] font-bold">
-                  Just take a look - each member of the team is contributing to
-                  the vission and mission of TimbuktuDAO
-                </p>
               </div>
             </div>
           </div>
