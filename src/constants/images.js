@@ -3,7 +3,8 @@ import discord_logo from "../assets/discord-svgrepo-com.svg";
 import shape_pentagon from "../assets/Shapes 3D Image.png";
 import discord from "../assets/discord-communication-interaction-message-network-svgrepo-com.svg";
 import telegram from "../assets/telegram-communication-chat-interaction-network-connection-svgrepo-com.svg";
-import twitter from "../assets/twitter-1-svgrepo-com.svg";
+import twitter from "../assets/x.jpg";
+import twitter_two from "../assets/x2.png";
 import linkdIn from "../assets/linkedin-1-svgrepo-com.svg";
 import facebook from "../assets/facebook-1-svgrepo-com.svg";
 import instagram from "../assets/instagram-1-svgrepo-com.svg";
@@ -33,6 +34,7 @@ export default {
   discord,
   telegram,
   twitter,
+  twitter_two,
   linkdIn,
   facebook,
   instagram,

@@ -46,7 +46,7 @@ const OurTeam = () => {
                   <img
                     src={card.x_icon}
                     alt="X"
-                    className={`w-[30px] ${
+                    className={`w-[30px]  ${
                       card.x_icon === undefined ? "hidden" : ""
                     }`}
                   />{" "}

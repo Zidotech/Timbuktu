@@ -46,7 +46,7 @@ export const TeamCard = [
       "https://www.linkedin.com/in/afrikanus-kofi-akosah-adusei-ba25aa88/",
     linkedin_icon: image.linkdIn,
     x: "http://twitter.com/CryptoTraveler1",
-    x_icon: image.twitter,
+    x_icon: image.twitter_two,
   },
   {
     id: 2,
@@ -54,7 +54,7 @@ export const TeamCard = [
     role: "Marketing Lead",
     img: image.feyii,
     x: "https://x.com/custommade_ng/",
-    x_icon: image.twitter,
+    x_icon: image.twitter_two,
   },
   {
     id: 3,
@@ -64,7 +64,7 @@ export const TeamCard = [
     linkedin: "https://www.linkedin.com/in/realbislab/",
     x: "https://twitter.com/DTekDude",
     linkedin_icon: image.linkdIn,
-    x_icon: image.twitter,
+    x_icon: image.twitter_two,
   },
   {
     id: 4,
@@ -74,7 +74,7 @@ export const TeamCard = [
     linkedin: "https://www.linkedin.com/in/faytey7/",
     x: "https://twitter.com/faytey7",
     linkedin_icon: image.linkdIn,
-    x_icon: image.twitter,
+    x_icon: image.twitter_two,
   },
   {
     id: 5,
@@ -85,7 +85,7 @@ export const TeamCard = [
       "https://www.linkedin.com/in/akolade-ogundiran-7249aa129?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
     x: "https://x.com/SamuelSonOfMan?t=2Ng3ZdfH4LNYD-GLfwdUJQ&s=09",
     linkedin_icon: image.linkdIn,
-    x_icon: image.twitter,
+    x_icon: image.twitter_two,
   },
   {
     id: 6,
@@ -105,7 +105,7 @@ export const TeamCard = [
     linkedin: "https://www.linkedin.com/in/zulukhanini-tijani-447751238",
     x: "https://twitter.com/Zidotech",
     linkedin_icon: image.linkdIn,
-    x_icon: image.twitter,
+    x_icon: image.twitter_two,
   },
   {
     id: 8,
@@ -115,7 +115,7 @@ export const TeamCard = [
     linkedin: "https://www.linkedin.com/in/asang-nehemiah-forgwe-094067",
     x: "https://x.com/AsangNehemiah?s=09",
     linkedin_icon: image.linkdIn,
-    x_icon: image.twitter,
+    x_icon: image.twitter_two,
   },
   {
     id: 9,
@@ -133,7 +133,7 @@ export const TeamCard = [
     linkedin: "https://www.linkedin.com/in/ogozi-precious-a28939220",
     x: "https://x.com/OgoziPrecious ",
     linkedin_icon: image.linkdIn,
-    x_icon: image.twitter,
+    x_icon: image.twitter_two,
   },
   {
     id: 11,
@@ -144,7 +144,7 @@ export const TeamCard = [
       "https://www.linkedin.com/in/okechukwu-jude-47a406254?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
     x: "https://x.com/Juxelabs?t=laFqHAH8rlM_mEOwjDqUeA&s=09",
     linkedin_icon: image.linkdIn,
-    x_icon: image.twitter,
+    x_icon: image.twitter_two,
   },
 
   {
@@ -156,7 +156,7 @@ export const TeamCard = [
       "https://www.linkedin.com/in/kehinde-akinbola-b4a6011a9?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app",
     x: "https://twitter.com/kenzman18",
     linkedin_icon: image.linkdIn,
-    x_icon: image.twitter,
+    x_icon: image.twitter_two,
   },
 ];
 
